@@ -123,7 +123,7 @@ for(int i = 2; i < length;i++){
 }
 int endfunc(int e,int a){
     setfillstyle(1,5);
-    e=e-1;
+    e=e-2;
     bar(0,0,640,470);
     system("cls");
     if(a == 0){
