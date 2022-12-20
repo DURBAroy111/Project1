@@ -5,7 +5,7 @@
 #include<stdlib.h>
 int endfunc(int e, int a);
 int main(){
-    int gd,gm,rx=200,ry=200,x[300],y[300],d,f=0,dir=1,chk=800;
+    int gd,gm,rx=200,ry=200,x[300],y[300],d,f=1,dir=1,chk=800;
 
     detectgraph(&gd,&gm);
     initgraph(&gd,&gm,"");
